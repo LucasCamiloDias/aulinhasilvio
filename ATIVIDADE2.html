@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 2</title>
+</head>
+<body>
+    <h1> Pessoa obesa</h1>
+    
+    <div id="resultado"></div>
+    <div id="pessoa"></div>
+ <script> 
+  let pessoa1 = (prompt("Digite o nome da pessoa:"));
+  let numero1 = Number(prompt("Digite um numero"));
+  let pessoa2 = (prompt("Digite o nome da segunda pessoa:"));
+  let numero2 = Number(prompt("Digite um numero"));
+  
+  
+  if (numero1 > numero2) {
+    pessoa = pessoa1;
+    mensagem = numero1;
+
+
+  } else {
+    pessoa = pessoa2;
+mensagem = numero2;
+
+  }
+   
+
+  document.getElementById("pessoa").innerHTML=pessoa;
+ document.getElementById("resultado").innerHTML=mensagem;
+</script>
+</body>
+
+</html>
